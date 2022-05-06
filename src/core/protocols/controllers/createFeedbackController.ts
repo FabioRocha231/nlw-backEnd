@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 
 
 export interface ICreateFeedbackController {
-  handle(req: Request, res: Response): Promise<Response>;
+  handle(req: Request, res: Response, next: NextFunction): Promise<Response | void>;
 }
