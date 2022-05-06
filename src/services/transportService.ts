@@ -10,8 +10,8 @@ export class TransportService {
       host: "smtp.mailtrap.io",
       port: 2525,
       auth: {
-        user: "d62501bef6fcd6",
-        pass: "baad95067aa011",
+        user: "764234748335c7",
+        pass: "a1b2343393dfa4",
       },
     });
 
@@ -27,5 +27,4 @@ export class TransportService {
       ].join("\n"),
     });
   }
-  
 }
