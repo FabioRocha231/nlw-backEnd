@@ -1,4 +1,5 @@
-import { IErrorHandler } from "../protocols/errorHander";
+import { IErrorHandler } from "../protocols/errorHandler";
+
 
 
 export class ErrorHandler implements IErrorHandler {
